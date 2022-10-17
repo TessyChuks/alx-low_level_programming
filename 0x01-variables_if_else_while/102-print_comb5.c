@@ -12,16 +12,16 @@ int main(void)
 	{
 		for (j = i + 1; j <= 99; j++)
 		{
-			pputchar('0' + i / 10);
+			putchar('0' + i / 10);
 			putchar('0' + i % 10);
 
 			putchar(' ');
 
 			putchar('0' + j / 10);
-			putchar('0' + i j % 10);
+			putchar('0' + j % 10);
 
 			if (i == 98 && j == 99)
-				break
+				break;
 			putchar(',');
 			putchar(' ');
 		}
