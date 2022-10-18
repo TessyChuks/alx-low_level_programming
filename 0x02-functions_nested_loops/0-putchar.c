@@ -2,7 +2,8 @@
 
 /**
  * main - prints _putchar and a new line
- * Returns: Always 0
+ * Return: Always 0
+ * (0) passed
  */
 int main(void)
 {
