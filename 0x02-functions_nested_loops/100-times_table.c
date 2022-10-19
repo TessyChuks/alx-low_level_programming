@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_time_table - prints the times table
+ * print_times_table - prints the times table
  * @n: integer for which the times table will be printed
  *
  * Desccription: prints the times table
@@ -31,7 +31,7 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(product % 10 + '0');
 				}
-				else if (product >= 10 && product < 1000)
+				else if (product >= 10 && product < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
